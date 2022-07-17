@@ -1,7 +1,6 @@
 /* Common Styles */
 .form-container{
     height: 75vh;
-    width:50vw;
     display: flexbox;
     align-items: center;
     justify-content: center;

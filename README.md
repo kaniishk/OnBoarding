@@ -1,6 +1,6 @@
 On Boarding React App
 
-Netlify link : 
+Netlify link : https://eden-onboarding-myreactapp.netlify.app/
 
 
 In the project directory, you can run:
