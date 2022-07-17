@@ -1,0 +1,147 @@
+/* Common Styles */
+.form-container{
+    height: 75vh;
+    width:50vw;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    min-height: 25vh;
+    padding: 0.25rem;
+    margin: auto;
+}
+
+/* Overiding Bootstrap button classes  */
+.nextBtn{
+    width: 93%;
+    height: 2.4rem;
+    padding: 3rem;
+    background-color: #5135e4 !important; 
+    font-weight: 500 !important;
+    font-size: small !important; 
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #4425e4 !important;
+    border-color: #4425e4 !important;
+}
+
+
+/* Step Related styles*/
+.formInputs{
+   padding: 0.5rem;
+   margin: 0.5rem;
+}
+.formInputs label{
+    float: left;
+    font-weight: bold;
+}
+
+.stepTitle h2{
+    font-weight: bold;
+    margin: auto;
+}
+.stepTitle p{
+    font-weight: 500;
+}
+
+.form-control:focus{
+    border-color: #4425e4 !important;
+}
+
+/* Radio Cards Styles (Selected and unslected) */
+.mycard-container{
+    padding: 0.25rem;
+}
+.cardcolumn{
+    float: left;
+    width: 50%;
+}
+.myCard{
+    border: 2px gray solid;
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    color: gray;
+}
+.cardSelected{
+    border: 2px #5135e4 solid;
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.card-icon{
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+.myCard h6{
+    font-weight:700;
+}
+.myCard p{
+    font-weight: 400;
+    font-size: small;
+}
+.cardSelected h6{
+    font-weight:700;
+}
+.cardSelected p{
+    font-weight: 400;
+    font-size: small;
+}
+.cardSelected .card-icon{
+    color: #5135e4;
+}
+
+.myCard:hover{
+    box-shadow: 0px 6px 6px 0px gray;
+}
+.cardSelected:hover{
+    box-shadow: 0px 6px 6px 0px gray;
+}
+
+/* Remove extra left and right margins, due to padding */
+.mycard-container .row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.mycard-container .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .cardcolumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Final Confirmation Page Styles */
+.checkmark{
+    padding: 2rem;
+}
+.checkmark-icon{
+    color: #5135e4;
+    font-size:6rem;
+}
+.confirm-text{
+    padding: 0.5rem;
+}
+.confirm-text h2{
+    font-weight: bold;
+    margin: auto;
+}
+.confirm-text p{
+    font-weight: 500;
+}
+
