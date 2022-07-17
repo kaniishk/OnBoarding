@@ -4,7 +4,7 @@ export const Step1 = ({data,handleChange}) => {
   return (
   <>
     <div className='stepTitle'>
-        <h2>Welcome! What should we call you?..</h2>
+        <h2>Welcome! First things First..</h2>
         <p>You can always change them later.</p>
     </div>
     <form>
