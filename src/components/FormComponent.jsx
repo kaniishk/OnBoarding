@@ -42,13 +42,13 @@ export default class FormComponent extends Component {
 
         // Handling radio cards
         const handleTeamClick = (e) => {
-            console.log('team');
+            //console.log('team');
             const {data} = this.state;
             data['isIndividual'] = false;
             this.setState({data});
         }
         const handleIndvClick = (e) => {
-            console.log('indv');
+            //console.log('indv');
             const {data} = this.state;
             data['isIndividual'] = true;
             this.setState({data});
